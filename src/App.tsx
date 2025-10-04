@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from './components/Header/Header'
 import HomePage from './pages/HomePage'
 
 function App() {
   
   return (
     <>
-     <h1 className="text-4xl">Hello</h1>
+  <Header />
      <HomePage />
      </>
   )
