@@ -1,3 +1,5 @@
+import Hero from "../components/hero/Hero";
+
 export default function HomePage() {
   return (
     <>
@@ -12,7 +14,7 @@ export default function HomePage() {
           <source src="/og background video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-       
+       < Hero />
       </div>
     </>
   );
