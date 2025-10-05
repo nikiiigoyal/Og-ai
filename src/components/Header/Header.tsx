@@ -13,22 +13,47 @@ export default function Header () {
                 <div className="flex justify-evenly items-center">
 
                     <a href="/research" className="text-lg text-[#fff] pr-4">Research</a>
-                    <div className="relative group">
+                    {/* learn dropdown */}
+                    <div className="relative group py-7">
                      <a href="/Learn" className="text-lg text-[#fff] pr-4">Learn</a>
-                     <div className="absolute top-full hidden group-hover:block left-1/2 mt-3 bg-[#fff] backdrop-blur-md text-sm  border border-[#e5e5e5] text-[#000] transform translate-x/12 opacity-0 transition-all duration-300 hover:translate-y-0 hover:opacity-100">
-                     <div className="py-1 ">
+                     <div className="absolute top-full hidden group-hover:block rounded-xl left-1/2 transform -translate-x-1/2 bg-[#fff] backdrop-blur-md text-lg px-3 py-2  border border-[#e5e5e5] text-[#000] transition-all ease-in-out duration-500 hover:opacity-100 whitespace-nowrap">
+                     <div className="">
                        
-            <a href="/learn/product" className="block px-4 py-2 hover:bg-[b75fff] ">Product</a>
-            <a href="/learn/blog" className="block px-4 py-2 ">Blog</a>
-             <a href="/learn/faqs" className="block px-4 py-2 ">FAQs</a>
-              <a href="/learn/contactus" className="block px-4 py-2 ">Contact us</a>
-               <a href="/learn/whitepaper" className="block px-4 py-2 ">Whitepaper</a>
-
+            <a href="/learn/product" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Product</a>
+            <a href="/learn/blog" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Blog</a>
+            <a href="/learn/faqs" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">FAQs</a>
+            <a href="/learn/contactus" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Contact us</a>
+            <a href="/learn/whitepaper" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Whitepaper</a>
+                  </div>
                      </div>
                      </div>
+                    {/* build dropdown */}
+                      <div className="relative group py-7">
+                     <a href="/build" className="text-lg text-[#fff] pr-4">Build</a>
+                     <div className="absolute top-full hidden group-hover:block rounded-xl left-1/2 transform -translate-x-1/2  whitespace-nowrap bg-[#fff] backdrop-blur-md text-lg border border-[#e5e5e5] text-[#000] transition-all ease-in-out duration-400 hover:opacity-100">
+                     <div className="py-2">
+                       
+            <a href="/learn/docs" className="block px-3 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Docs</a>
+            <a href="/learn/og" className="block px-3 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">OG Hub</a>
+            <a href="/learn/builder" className="block px-3 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Builder Hub</a>
+           
+                  </div>
                      </div>
-                      <a href="/build" className="text-lg text-[#fff] pr-4">Build</a>
-                       <a href="/ecosystem" className="text-lg text-[#fff] pr-4">ecosystem</a>
+                     </div>
+                    {/* ecosysytem dropdown */}
+                      <div className="relative group py-7">
+                     <a href="/ecosystem" className="text-lg text-[#fff] pr-4">Ecosystem</a>
+                     <div className="absolute top-full hidden group-hover:block rounded-xl left-1/2 transform -translate-x-1/2 bg-[#fff] backdrop-blur-md text-lg px-3 py-2  border border-[#e5e5e5] text-[#000] transition-all ease-in-out duration-500 hover:opacity-100 whitespace-nowrap">
+                     <div className="py-2">
+                       
+            <a href="/learn/partners" className="block px-4 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Partners</a>
+            <a href="/learn/Acclerator" className="block px-4 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Acclerator</a>
+            <a href="/learn/ecosystem" className="block px-4 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg " >Ecosystem Growth Program</a>
+            <a href="/learn/nodesale" className="block px-4 py-1 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Node sale</a>
+            
+                  </div>
+                     </div>
+                     </div>
             <a>
                 <button className="bg-[#fff] text-black p-3 rounded-xl">Docs</button>
             </a>
