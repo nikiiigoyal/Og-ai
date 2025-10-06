@@ -6,24 +6,24 @@ export default function Header () {
             <div className="flex bg-[#00000026] backdrop-blur-lg  rounded-[24px] mx-auto w-fit px-3 items-center">
                 <div className="w-[90px] h-[70px] text-white pr-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
-<path d="M50.0009 12.6136C49.6855 18.9497 44.3897 23.9913 37.9033 23.9913C31.214 23.9913 25.791 18.6291 25.791 12.0146C25.791 5.40009 31.214 0.0380859 37.9033 0.0380859C44.1841 0.0380859 49.3483 4.76491 49.956 10.8171H44.4555C43.8858 7.75086 41.169 5.42761 37.9035 5.42761C34.2241 5.42761 31.2416 8.37672 31.2416 12.0146C31.2416 15.6527 34.2241 18.6018 37.9035 18.6018C40.7281 18.6018 43.1418 16.8636 44.111 14.4101H34.8753V12.6136H50.0009Z" fill="currentColor"></path>
-<path d="M3.98642 20.8584C8.74078 25.1181 16.0905 24.9803 20.6772 20.4453C25.4072 15.7681 25.4072 8.18505 20.6772 3.50781C15.9469 -1.16927 8.27782 -1.16927 3.54764 3.50781C-0.893505 7.8992 -1.16488 14.8521 2.73348 19.5567L6.62297 15.7108C4.83311 13.1445 5.09269 9.60205 7.40183 7.31886C10.0034 4.7464 14.2215 4.7464 16.8231 7.31886C19.4245 9.89129 19.4245 14.062 16.8231 16.6345C14.8257 18.6094 11.8757 19.0682 9.43583 18.0106L15.9665 11.5531L14.6819 10.2829L3.98642 20.8584Z" fill="currentColor"></path>
-</svg>
+                    <path d="M50.0009 12.6136C49.6855 18.9497 44.3897 23.9913 37.9033 23.9913C31.214 23.9913 25.791 18.6291 25.791 12.0146C25.791 5.40009 31.214 0.0380859 37.9033 0.0380859C44.1841 0.0380859 49.3483 4.76491 49.956 10.8171H44.4555C43.8858 7.75086 41.169 5.42761 37.9035 5.42761C34.2241 5.42761 31.2416 8.37672 31.2416 12.0146C31.2416 15.6527 34.2241 18.6018 37.9035 18.6018C40.7281 18.6018 43.1418 16.8636 44.111 14.4101H34.8753V12.6136H50.0009Z" fill="currentColor"></path>
+                    <path d="M3.98642 20.8584C8.74078 25.1181 16.0905 24.9803 20.6772 20.4453C25.4072 15.7681 25.4072 8.18505 20.6772 3.50781C15.9469 -1.16927 8.27782 -1.16927 3.54764 3.50781C-0.893505 7.8992 -1.16488 14.8521 2.73348 19.5567L6.62297 15.7108C4.83311 13.1445 5.09269 9.60205 7.40183 7.31886C10.0034 4.7464 14.2215 4.7464 16.8231 7.31886C19.4245 9.89129 19.4245 14.062 16.8231 16.6345C14.8257 18.6094 11.8757 19.0682 9.43583 18.0106L15.9665 11.5531L14.6819 10.2829L3.98642 20.8584Z" fill="currentColor"></path>
+                  </svg>
                 </div>
                 <div className="flex justify-evenly items-center">
-
-                    <a href="/research" className="text-lg text-[#fff] pr-4">Research</a>
+                <a href="/research" className="text-lg text-[#fff] pr-4">Research</a> 
+                
                     {/* learn dropdown */}
                     <div className="relative group py-7">
                      <a href="/Learn" className="text-lg text-[#fff] pr-4">Learn</a>
                      <div className="absolute top-full hidden group-hover:block rounded-xl left-1/2 transform -translate-x-1/2 bg-[#fff] backdrop-blur-md text-lg px-3 py-2  border border-[#e5e5e5] text-[#000] transition-all ease-in-out duration-500 hover:opacity-100 whitespace-nowrap">
                      <div className="">
                        
-            <a href="/learn/product" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Product</a>
-            <a href="/learn/blog" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Blog</a>
-            <a href="/learn/faqs" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">FAQs</a>
-            <a href="/learn/contactus" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Contact us</a>
-            <a href="/learn/whitepaper" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Whitepaper</a>
+                    <a href="/learn/product" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Product</a>
+                    <a href="/learn/blog" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">Blog</a>
+                    <a href="/learn/faqs" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg  ">FAQs</a>
+                    <a href="/learn/contactus" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Contact us</a>
+                    <a href="/learn/whitepaper" className="block px-4 py-2 hover:bg-[#cb8aff] hover:opacity-60 hover:text-[#b75fff] active:text-[#b75fff] hover:rounded-lg ">Whitepaper</a>
                   </div>
                      </div>
                      </div>
