@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import HomePage from './pages/HomePage'
+import HeroPage from './pages/HeroPage'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
   <Header />
      <HomePage />
+     <HeroPage />
      
      </>
   )
