@@ -1,7 +1,7 @@
 export default function Hero () {
     return (
         <>
-        <div className="relative h-screen flex flex-col justify-end z-10 pb-20 w-full px-10">
+        <div className="relative h-screen flex flex-col justify-end z-10 pb-20 w-full px-10 ">
             <div className="flex justify-between w-full items-end">
                  <h1>
                 <div className="flex items-center ">
