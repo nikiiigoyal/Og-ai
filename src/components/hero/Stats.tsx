@@ -18,7 +18,7 @@ export default function Stats() {
     {
       value: "infinity",
       title: "infinetly Scalable",
-      description: "11k+ Peak TPS per shard."
+      description: "11k+ Peak TPS per shard"
     }
   ];
 
