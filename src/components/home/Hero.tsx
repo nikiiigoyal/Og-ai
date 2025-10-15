@@ -17,7 +17,7 @@ export default function Hero () {
                 <div className="text-[#fff] text-3xl lg:text-8xl font-semibold"> The Largest AI L1</div>
                  </h1>
          
-            <div className="buttons flex items-center gap-3">
+            <div className="button flex items-center gap-3">
                  
                    <button className="bg-[#fff] px-5 text-black py-3 font-semibold rounded-xl hover:bg-[#cb8aff] hover:opacity-45 transform transition-bg duration-300">Docs</button>
                  
